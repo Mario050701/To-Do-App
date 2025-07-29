@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your To Do</h1>
+      <form id="create-form">
+        <input type="text" id="input-element" placeholder="Add your task" />
+        <button class="btn btn-add" id="btn-add">Add</button>
+      </form>
+
+      <form id="edit-form" class="hide">
+        <input type="text" id="edit-input-element" />
+        <button id="btn-save" class="btn btn-save" type="submit">Save</button>
+        <button id="btn-cancel" class="btn btn-cancel" type="button">
+          Cancel
+        </button>
+      </form>
+      <ul id="tasks-list"></ul>
+      <p id="task-count"></p>
+
+      <p>
+        "Doing what you love is the cornestone of having abundance in you
+        life."<br />
+        - Wayne Dyer
+      </p>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>
